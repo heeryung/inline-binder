@@ -1,0 +1,36 @@
+pip install hide_code
+jupyter nbextension install --py hide_code --sys-prefix
+jupyter nbextension enable --py hide_code --sys-prefix
+jupyter serverextension enable --py hide_code --sys-prefix
+jupyter nbextension install . --sys-prefix
+jupyter nbextension enable cell --sys-prefix
+jupyter nbextension enable codecell --sys-prefix
+jupyter nbextension enable control --sys-prefix
+jupyter nbextension enable debug --sys-prefix
+jupyter nbextension enable disablenotebookextensions --sys-prefix
+jupyter nbextension enable getattempts --sys-prefix
+jupyter nbextension enable getquestion --sys-prefix
+jupyter nbextension enable getsolutions --sys-prefix
+jupyter nbextension enable insertcell --sys-prefix
+jupyter nbextension enable jupyterevents --sys-prefix
+jupyter nbextension enable jupyterlogger --sys-prefix
+jupyter nbextension enable moveablecell --sys-prefix
+jupyter nbextension enable reloadsolutions --sys-prefix
+jupyter nbextension enable setcolorsandeditable --sys-prefix
+jupyter nbextension enable setupjupytereventlogging --sys-prefix
+jupyter nbextension enable submit --sys-prefix
+jupyter nbextension enable submitattempt --sys-prefix
+jupyter nbextension enable submitcontainer --sys-prefix
+jupyter nbextension enable submithack --sys-prefix
+jupyter nbextension enable submitfunction --sys-prefix
+jupyter nbextension enable textcell --sys-prefix
+jupyter nbextension enable timer --sys-prefix
+jupyter nbextension enable timersubmit --sys-prefix
+jupyter nbextension enable url --sys-prefix
+jupyter nbextension enable username --sys-prefix
+
+
+
+
+
+
